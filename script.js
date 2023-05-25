@@ -1,7 +1,8 @@
 function sum(a,b) {
     var s = a + b;
-    console.log(s);
+    return s;
 }
 var a = parseInt(prompt("Enter the first number : "));
 var b = parseInt(prompt("Enter the second number :"));
-sum(a,b);
+var z = sum(a,b);
+console.log(z);
